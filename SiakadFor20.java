@@ -5,7 +5,7 @@ public class SiakadFor20 {
         Scanner sc = new Scanner(System.in);
         
         double nilai, tertinggi = 0, terendah = 100;
-        int jmlLulus = 0, jmlTidakLulus = 0; // Untuk soal pertanyaan nomor 4
+        int jmlLulus = 0, jmlTidakLulus = 0; 
         
         for (int i = 1; i <= 10; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + i + ": ");
@@ -18,7 +18,6 @@ public class SiakadFor20 {
                 terendah = nilai;
             }
             
-            // Tambahan untuk Pertanyaan No. 4 (Batas lulus minimal 60)
             if (nilai >= 60) {
                 jmlLulus++;
             } else {
